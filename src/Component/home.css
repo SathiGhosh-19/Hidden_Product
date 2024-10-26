@@ -1,0 +1,46 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product-table {
+  border-collapse: collapse;
+}
+
+.product-table td {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.hidden-cell {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.product-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-cell h2 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.product-cell img {
+  max-width: 80%;
+  max-height: 70%;
+  object-fit: contain;
+}
